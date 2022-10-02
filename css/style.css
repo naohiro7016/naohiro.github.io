@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+    border:none ;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+
+}
+
+.nav {
+    overflow: auto;
+    width: 85%;
+    margin:1em auto;
+}
+
+.nav h1 {
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a {
+    font-family: 'Raleway', sans-serif;
+    color: #96746b;
+    text-decoration: none;
+}
+
+.nav ul {
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 1em;
+}
+
+.nav ul li {
+    display:inline-block;
+    margin-left: 1em;
+
+}
+
+.nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700 ;
+    color: #312a26;
+    text-decoration: none;
+
+}
+
+.banner {
+    background-image: url(../image/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 670px;
+}
+
+.banner-text {
+    position: relative;
+    top: 50%;
+    left: 5.5%;
+    transform: translate(0%,-50%);
+    color: #96746b;
+    font-size: 40px;
+    
+}
+
+.banner-text h2 {
+    
+    color: #c7a17a;
+    text-transform: uppercase;
+
+
+
+}
+
+.banner-text h2 span {
+    
+    color: #96746b;
+    margin-left: 7px;
+}
+.banner-text p {
+    
+    color: #fff;
+    font-size: 14px;
+
+}
+
+
+
+
+.banner-text a {
+    display:inline-block;
+    color: #fff;
+    font-size: 15px;
+    background-color: #312a26;
+    padding: 15px;
+    margin-top: 10px;
+    text-transform:capitalize;
+    text-decoration: none;
+
+}
+
+/*Ads area section*/
+
+.ads {
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.ads-items {
+    width: 48.5%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.ads-item1{
+    background-image: url(../image/ads-img1.jpg);
+    margin-right: 3%;
+    
+}
+
+.ads-item2 {
+    background-image: url(../image/ads-img2.jpg);
+    
+
+}
+
+.ads-text {
+    
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 50%
+
+}
+
+.ads-text h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px  #312a26;;
+}
+
+
+.ads-text a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px  #312a26;;
+    margin-top: 1em;
+}
+/*Merchandise Area*/
+/*Assidment */
+
+.merch {
+    vertical-align:center;
+}
+
+.section-header {
+    text-align: center;
+    border-bottom: 2px solid  #c7a17a;
+    margin-bottom: 2em;
+    width: 310px;
+    margin-left: 30em;
+
+}
+
+.section-header span {
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    color: #c7a17a;
+}
+
+.section-header h2 {
+    text-transform: uppercase;
+}
+
+
+.merch-image55 {
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    width: 85%;
+    margin-left: 100px;
+    position: relative;
+}
+
+.merch-image img {
+    width:250px;
+    float: left;
+}
+
+
+.discount {
+    background-image: url(../image/discount-img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 85%;
+    height: 300px;
+    margin-bottom: 2em;
+    margin-left: 100px;
+}
+
+.discount-text {
+    
+    position: relative;
+    top: 30%;
+    text-align: center;
+    
+    
+}
+.discount-text h2 {
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px  #312a26;
+
+}
+
+.discount-text span {
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #fff;
+}
+
+.discount-text a {
+    display:inline-block;
+    color: rgb(58, 56, 56);
+    font-size: 13px;
+    background-color:  rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    margin-top: 10px;
+    text-transform:capitalize;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.ads {
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+    
+}
+
+.ads-items {
+    width: 48.5%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.ads-item3{
+    background-image: url(../image/ads-img3.jpg);
+    margin-right: 3%;
+
+}
+
+.ads-item4 {
+    background-image: url(../image/ads-img4.jpg);
+    
+
+}
+
+.ads-item5 {
+    background-image: url(../image/ads-img5.jpg);
+    margin-right: 3%;
+    
+}
+
+.ads-item6 {
+    background-image: url(../image/ads-img6.jpg);
+    
+
+}
+
+.ads-text {
+    
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 50%
+
+}
+
+.ads-text h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px  #312a26;;
+}
+
+
+.ads-text a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px  #312a26;
+    margin-top: 1em;
+}
+
+
+
+.form-must {
+    box-sizing: border-box;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 10px;
+    width: 41%;
+    height: 650px;
+    margin-left: 95px;
+    padding: 35px 20px 20px 20px;
+    background-color: rgb(229, 227, 227);
+    float: left;
+}
+.reserve {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: 1em;
+}
+
+form {
+    margin-bottom: 720px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-additional {
+    box-sizing: border-box;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 10px;
+    width: 41%;
+    height: 650px;
+    margin-right: 95px;
+    padding: 35px 20px 20px 20px;
+    background-color: rgb(229, 227, 227);
+    float: right;
+}
+
+.form-additional p {
+    margin-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+}
+.credit {
+    width :150px;
+    position: center;
+}
+
+.area {
+    width: 450px;
+    padding: 1em;
+}
+
+
+.submit {
+    width: 450px;
+    padding: 1em;
+    background-color: rgb(164, 118, 84);
+    margin-top: 2px;
+    
+}
+
+.banner-foot {
+    background-image: url(../image/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.foot-text-all {
+    display: flex;
+	justify-content: space-between;
+    float:left;
+    width: 80%;
+    margin-left: 100px;
+    position: relative;
+    top: 12%;
+}
+
+.foot-text {
+    text-transform: uppercase;
+}
+
+.banner-foot-text1 {
+    color: #fff;
+    font-size: 14px;
+}
+.banner-foot-text1 ul {
+    float:left;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-foot-text2 {
+    color: #fff;
+    font-size: 14px;
+}
+.banner-foot-text2 ul {
+    float:left;
+    list-style: none;
+}
+
+.banner-foot-text3 {
+    color: #fff;
+    font-size: 14px;
+}
+.banner-foot-text3 ul {
+    float:left;
+    list-style: none;
+    
+}
+
+.title {
+    margin-top: 4.5em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.search {
+    height: 40px;
+    width: 150px;
+}
+
+.button {
+    height: 40px;
+    width: 70px;
+    border: 2px solid #c7a17a;
+    background-color: #c7a17a;
+}
+
+.banner-foot-text4 {
+    color: #fff;
+    font-size: 14px;
+}
+.banner-foot-text4 ul {
+    float:left;
+    list-style: none;
+}
+
+.foot-text-li {
+    
+    color:rgb(231, 206, 186,0.6);
+    font-family: 'Raleway', sans-serif;
+}
+
+.foot-text-li-p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.date {
+    text-shadow: 0 0 6px rgb(241, 237, 237);
+    
+}
+
+.day {
+    float:right;
+    margin-right: 2em;
+}
+
+.last {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid rgb(45, 28, 17);
+    background-color: rgb(45, 28, 17);
+}
+
+.last h1 {
+    text-transform: uppercase;
+    width: 30%;
+    height: 30%;
+    float: left;
+    color: #fff;
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+
+.icon {
+    justify-content: center;
+    height: 30%;
+}
+
+.icon a img {
+    width:20px;
+}
+
+.last p {
+    color: #fff;
+    text-align: right;
+    height: 30%;
+    margin-left: 200px;
+}
+
+
+
